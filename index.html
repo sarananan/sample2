@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blur images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+        <h1>image opacity control</h1>
+        <img src="images/cover4.jpg" alt="" id="img"> <br>
+        <input type="range" name="" id="range" min="0" max="100" value="100">
+    </div>
+    <script>
+        range.oninput=check;
+        function check(){
+          img.style.opacity= range.value/100
+        }
+    </script>
+
+</body>
+</html>
